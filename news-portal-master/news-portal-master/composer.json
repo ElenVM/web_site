@@ -1,0 +1,24 @@
+{
+  "name": "abler98/elena",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "abler98",
+      "email": "abler98@gmail.com"
+    }
+  ],
+  "require": {
+    "phroute/phroute": "^2.1",
+    "symfony/var-dumper": "^3.2",
+    "nesbot/carbon": "^1.21",
+    "usmanhalalit/pixie": "^2.0",
+    "phpmailer/phpmailer": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
